@@ -48,10 +48,11 @@ export function Recuadro() {
 
   const [mostrar, setMostrarProyect] = useState(false);
 
-  const [contenido, setContenido] = useState(true);
+  const [contenido, setContenido] = useState(false);
 
   function otroProyecto() {
     setMostrarProyect(true);
+    setContenido(true);
   }
 
   

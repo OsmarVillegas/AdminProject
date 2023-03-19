@@ -1,11 +1,11 @@
 import React from "react";
 import { Recuadro } from '../components/admin/adminComponents'
-import { HeaderAdmin } from '../components/HeadersAndFooters/HeaderAndFooterAdmin'
+import { HeaderAdmin } from '../components/HeadersAndFooters/Header'
 
 function Admin() {
  return(
     <div>
-        <HeaderAdmin />
+        <HeaderAdmin titulo="Administrador de proyectos" />
         <Recuadro />
     </div>
  );   
